@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #3eb489; /* Mint color */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  h1 {
+    color: #3eb489;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .tags {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .tag {
+    background: #3eb489;
+    color: #121212;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 0.9em;
+  }
+  .quote {
+    text-align: center;
+    font-style: italic;
+    color: #aaaaaa;
+    margin-bottom: 30px;
+  }
+  h2 {
+    border-bottom: 2px solid #3eb489;
+    padding-bottom: 8px;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+  .category {
+    margin-bottom: 20px;
+  }
+  .category-title {
+    font-weight: bold;
+    color: #3eb489;
+    background-color: #2a2a2a;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #333;
+  }
+  .weapon {
+    width: 40%;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  .damage {
+    width: 20%;
+    color: #ff6b6b; /* Soft red for damage */
+    font-weight: bold;
+  }
+  .note {
+    width: 40%;
+    color: #888;
+    font-size: 0.9em;
+    text-align: right;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 35px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    border-left: 5px solid #3eb489;
+    font-size: 1.1em;
+  }
+  .highlight {
+    color: #3eb489;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>[Mint] Deathmatch #1</h1>
+    
+    <div class="tags">
+      <span class="tag">!music</span>
+      <span class="tag">!hitsound</span>
+      <span class="tag">Killstreaks!</span>
+    </div>
+
+    <div class="quote">"Fair and balance, And Community growth! by Randy"</div>
+
+    <h2>Balance Patch: 1.0.0</h2>
+
+    <div class="category">
+      <div class="category-title">Melees</div>
+      <table>
+        <tr><td class="weapon">Crowbar</td><td class="damage">25 DMG</td><td class="note">[Playing as Rebel]</td></tr>
+        <tr><td class="weapon">Stunstick</td><td class="damage">50 DMG</td><td class="note">[Playing as Combine]</td></tr>
+      </table>
+    </div>
+
+    <div class="category">
+      <div class="category-title">Small Arms</div>
+      <table>
+        <tr><td class="weapon">Pistol</td><td class="damage">10 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">Revolver .357</td><td class="damage">75 DMG</td><td class="note"></td></tr>
+      </table>
+    </div>
+
+    <div class="category">
+      <div class="category-title">Automatics</div>
+      <table>
+        <tr><td class="weapon">SMGs</td><td class="damage">8.8 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">AR2s</td><td class="damage">12.8 DMG</td><td class="note"></td></tr>
+      </table>
+    </div>
+
+    <div class="category">
+      <div class="category-title">Shotguns</div>
+      <table>
+        <tr><td class="weapon">Buckshot Shotgun</td><td class="damage">10 DMG</td><td class="note">per-pellet</td></tr>
+      </table>
+    </div>
+
+    <div class="category">
+      <div class="category-title">Special / Explosives</div>
+      <table>
+        <tr><td class="weapon">Crossbow</td><td class="damage">500 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">RPG</td><td class="damage">100 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">SMG Grenade</td><td class="damage">90 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">Grenade</td><td class="damage">250 DMG</td><td class="note"></td></tr>
+        <tr><td class="weapon">S.L.A.M</td><td class="damage">80 DMG</td><td class="note">thrown/detonate mode</td></tr>
+        <tr><td class="weapon">S.L.A.M</td><td class="damage">30 DMG</td><td class="note">wall-mounted mode</td></tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      All Chargers have <span class="highlight">1000 Health/Armor</span> to recharge.
+    </div>
+  </div>
+</body>
+</html>
