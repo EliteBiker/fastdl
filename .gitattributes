@@ -1,4 +1,0 @@
-*.bz2 filter=lfs diff=lfs merge=lfs -text
-hl2mp/maps/dm_frostbite_b3.bsp filter=lfs diff=lfs merge=lfs -text
-hl2mp/maps/dm_tigcrik_v2c.bsp filter=lfs diff=lfs merge=lfs -text
-hl2mp/maps/rp_midtown_v3.bsp filter=lfs diff=lfs merge=lfs -text
